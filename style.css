@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #dedede;
+}
+.click, .popur{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.click{
+    background: #2981bc;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #0059b3;
+}
+.popur{
+    user-select: none;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #b3b3b3;
+    background: #f2f2f2;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+.popur i{
+    font-size: 60px;
+    color:#eb9447;
+    padding: 20px 40px;
+    border: 5px solid #eb9447;
+    border-radius: 50%;
+    margin: -10px 0 20px 0;
+}
+.popur h1{
+    font-size: 30px;
+    color: #1b2631;
+    margin-bottom: 5px;
+}
+.popur label{
+    font-size: 23px;
+    color: #404040;
+}
+.popur .btns {
+    margin: 40px 0 0 0;
+    
+}
+.btns .btn1, .btns .btn2{
+    background: #999999;
+    color:white;
+    padding: 10px 13px;
+    font-size: 18px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.btns .btn2{
+    background: #ff3333;
+    margin-left: 20px;
+    border: 1px solid #cc0000;
+}
+.btn2:hover{
+    transition: .5s;
+    background: #757474;
+}
+.btn2:hover{
+    transition: .5s;    
+    background: #e60000;
+}
